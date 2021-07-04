@@ -1,0 +1,35 @@
+section
+{
+	margin-top: 80px;
+	text-align: center;
+}
+body
+{
+	background: #e8e8e8
+}
+.overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background:url(../img/courses_background.jpg)center center fixed;
+	background-size: cover;
+	background:#0000004f;
+	z-index: -1
+}
+.card
+{
+	border:1px solid #00000054;
+	padding-bottom:  15px;
+	border-radius: 10px;
+	width: 30rem !important;
+	overflow: hidden;
+}
+.card p
+{
+	font-size: 17px;
+	margin: 10px
+
+}

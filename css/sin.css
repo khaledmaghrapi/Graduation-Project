@@ -1,0 +1,94 @@
+*
+{
+	font-family: 'Cairo', sans-serif;
+}
+
+body {
+background: url(../img/signbackground.jpg) no-repeat center center fixed;
+background-size: cover;
+margin:0;
+font-family: 'Cairo', sans-serif;
+color: #fff;
+}
+.overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background:#0000004f;
+}
+.loginbox{
+width: 320px;
+height: 450px;
+background: #f1f2f661;
+color:#595959;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 70px 30px;
+border-radius: 4%;
+border:2px solid white;
+}
+.abdulla{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+text-shadow: currentColor;
+font-size: 22px;
+}
+.loginbox p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"] , input[type="password"]{
+border: none;
+border-bottom: 1px solid #a4b0be;
+outline: none;
+height: 40px;
+background: transparent;
+color: #000;
+font-size: 16px;
+}
+.loginbox input[type="submit"]{
+border:none;
+outline: none;
+height: 40px;
+background: #a4b0be;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+cursor: pointer;
+background: #747d8c;
+
+}
+.loginbox a{
+text-decoration: none;
+font-size: 20px;
+line-height: 25px;
+color: #000;
+}
+.loginbox a:hover
+{
+color: #747d8c;
+}
