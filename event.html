@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>أيفنتات</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel=shortcut-icon src="img/icon.png">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/event.css">
+    <link rel="stylesheet" type="text/css" href="css/cs.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#name" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand"  href="index.html"><img src="img/logo.png"></a>
+    </div> 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="name">
+    <ul class="nav navbar-nav navbar-left">
+      <li class="search">
+        <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">إبحث</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="أكتب هنا ما تبحث عنه" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="img/voice-recorder.png"></button>
+        </form>
+      </li>
+      <li><a href="index.html">الرئيسية<span class="sr-only">(current)</span></a></li>
+      <li class="active"><a href="event.html"> أيفنتات</a></li>
+      <li><a href="secondchat.html"> إتصل بنا</a></li>
+      <li><a href="courses.html"> كورسات</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> أخرى <span class="caret"></span></a>
+        <ul class="dropdown-menu ">
+          <li><a href="link1.html">توعية المجتمع بالإعاقة</a></li>
+          <li><a href="link2.html">فئات المجتمع الواجب توعيتها </a></li>
+          <li><a href="link3.html">توعية المجتمع بأسباب الإعاقة</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="link4.html">التوعية بأساليب الوقاية من الإعاقة </a></li>
+          <li> <a href="link5.html">  دور المؤسسات الاجتماعية في الوقاية من الاعاقة</a></li>
+          <li><a href="link6.html">طرق وأساليب توعية المجتمع</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="link7.html">التوعية بفئات ذوي الإعاقة وخصائصهم </a></li>
+          <li><a href="link8.html">التوعية بالآثار المترتبة على الإعاقة</a></li>
+          <li><a href="link9">الوقاية من الحوادث</a></li>
+        </ul>
+      </li>
+      <li class="contacts">
+        <a href="sign_up.html"> تسجيل الدخول</a>
+        <a href="login.html"> التسجيل</a>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- END NAV-->
+<br><br><br><br><br><br><br><br>
+
+
+<h2 style="padding-left: 150px;">Modal Of Registeration </h2>
+<button  type="button" class="btn btn-primary" data-toggle="modal" data-target="#sem-reg" style="background-color: #FF0000;border-color: #FF0000;margin-left: 150px;margin-top: 10px;">
+  Open modal
+</button>
+
+
+<!-- The Modal -->
+<div class="modal fade seminor-login-modal" data-backdrop="static" id="sem-reg">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- the second Modal body / registeration for the event -->
+
+
+
+      <div class="modal-body seminor-login-modal-body">
+       <h5 class="modal-title text-center" style="font-weight: bold;font-size: 20px;">Register For The Event</h5>
+        <button type="button" class="close" data-dismiss="modal" style="padding-top: 13px; padding-right: 3px;">
+            <span>X</span>
+        </button>
+
+
+  <form class="seminor-login-form">
+    <div class="form-group">
+      <input type="name" class="form-control" required autocomplete="off">
+      <label class="form-control-placeholder" for="name">User Name</label>
+    </div>
+    <div class="form-group">
+      <input type="email" class="form-control" required autocomplete="off">
+      <label class="form-control-placeholder" for="name">Email address</label>
+    </div>
+    <div class="form-group">
+    <label class="select-form-control-placeholder" for="sel1">profession</label>
+     <select class="form-control" id="sel1" name="sellist1">
+       <option>doctor</option>
+       <option>guest</option>
+       <option>patient</option>
+       <option>Professor</option>
+       <option>Others</option>
+     </select>
+    </div>
+    <div class="form-group">
+      <input type="tel" class="form-control" required autocomplete="off">
+      <label class="form-control-placeholder" for="name">Phone Number</label>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" required autocomplete="off">
+      <label class="form-control-placeholder" for="name">Organization</label>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" required autocomplete="off">
+      <label class="form-control-placeholder" for="name">Designation</label>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" required autocomplete="off">
+      <label class="form-control-placeholder" for="name">City</label>
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" required autocomplete="off">
+      <label class="form-control-placeholder" for="password">Password</label>
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" required autocomplete="off">
+      <label class="form-control-placeholder" for="password">Confirm Password</label>
+    </div>
+
+    <div class="form-group forgot-pass-fau text-center ">
+                                    <a href="/terms-conditions/" class="text-secondary" style="font-size:  15px">
+                                        By Clicking "SIGN UP" you accept our<br>
+                                        <span class="text-primary-fau" style="font-size:  15px;padding: 4px">Terms and Conditions</span>
+                                    </a>
+                                </div>
+
+      <div class="btn-check-log">
+          <button type="submit" class="btn-check-login">SIGN UP</button>
+      </div>
+      <div class="create-new-fau text-center pt-3">
+      
+      </div>
+    </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+    <script src="js/html5shiv.min.js"></script>  <!--make internet explorer can reade html5-->
+    <script src="js/respond.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src ="js/main.js"></script>
+
+
+
+</body>
+</html>
